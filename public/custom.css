@@ -1,0 +1,37 @@
+.socials img{
+    width: 22vw;
+}
+.bigbox{
+    justify-content: center;
+}
+.bigbox .box{
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.titleBox{
+    background-image: url('/img/ocean.cropped.jpg');
+    background-size: cover;
+}
+
+.sticky{
+    background-color: rgba(255, 255, 255, 0.572);
+}
+.sticky ul{
+    flex-direction: row !important;
+}
+
+.footerLogoImg{
+    flex:25%;
+}
+
+@media screen and (max-width:415) {
+    .title-pic .titleBox .logoImg{
+        position: unset;
+        margin: auto;
+    }
+}
